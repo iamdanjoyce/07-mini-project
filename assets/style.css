@@ -25,7 +25,9 @@ body {
     font-family: Arial, sans-serif;
     font-weight: bold;
   }
-
+  p {
+    text-align: justify;
+  }
   .grid-box {
     width: calc(33.333% - 20px);
     border: 2px solid #333;
@@ -34,4 +36,8 @@ body {
     padding: 20px;
     box-sizing: border-box;
     border: dotted;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+  
